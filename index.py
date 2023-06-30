@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_icon='📡', page_title="harley gray",)
+st.set_page_config(page_icon='📡', page_title="harley gray")
 st.title("let's work together")
 
 
