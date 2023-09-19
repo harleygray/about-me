@@ -7,7 +7,7 @@ st.title("let's work together")
 st.image('static/img/me.jpg', caption='being maximally cliche in America',width=210)
 st.markdown("# about me")
 st.write(
-    """hi, my name is harley. my friends describe me as having "immaculate vibes" and as an "interesting person to talk to". i live in Brisbane, Australia
+    """hi, my name is harley. my friends describe me as having "immaculate vibes" and an "interesting person to talk to". i live in Brisbane, Australia
     """)
 st.markdown("""
      i am driven by a desire to use technology for the common good. currently i am focussed on reducing the effectiveness of emotions-based campaigning in elections. to achieve this i am designing a framework to effectively store and use data so that voters have salient information when needed""")
@@ -28,11 +28,11 @@ st.markdown("""
 
 st.markdown("""
     # experience
-    ### data analyst - **[Digital Surge](https://digitalsurge.com.au/)** (*2021-2022*)
+    ### data analyst - **[Digital Surge](https://digitalsurge.com.au/)**
     - provide advice on business decisions by undertaking statistical exploration (e.g. Monte-Carlo simulations, hypothesis testing, network analysis) on available data, then explaining results using the appropriate  level of detail
     - enhance business understanding across the company by determining the data-related questions of each department (executive, customer service, marketing) and creating ongoing solutions based on their needs
     
-    ### data assurance associate - **[PwC Australia](https://www.pwc.com.au/)** (*2023*)
+    ### data assurance associate - **[PwC Australia](https://www.pwc.com.au/)** 
     - deliver outcomes for clients by understanding their business requirements and utilizing a suite of data processing technologies (e.g. Python, SQL, Alteryx) to deliver presentations, reports and dashboards   
     - upskill team members in using LLMs by leading an initiative to create a document chatbot. Manage the team by assigning coding tasks suiting their programming experience, resulting in a working prototype 
     - translate business requirements into data products in collaboration with both technical and non-technical stakeholders
