@@ -15,53 +15,35 @@ st.markdown("""
 
 st.markdown("# projects")
 st.markdown("""## [your library](https://your-library.streamlit.app/)""")    
-
-    
-    
-    
-st.markdown("*use your data*")
 st.markdown("""
-a tool that enables data to be used effectively
-by creating pipelines for classes of data, such as:
-- policy platform documents
-- interview transcripts
-- essays and blog posts
-- datasets; raw and analyzed
+    a tool to help Australians do their own research for the upcoming referendum.
+    my goal is to have 100 people use this tool to understand Australia's upcoming [Voice to Parliament referendum](https://www.abc.net.au/news/2023-05-15/what-is-the-indigenous-voice-to-parliament-referendum-australia/102317242)
 
-once a pipeline is defined, data can be added manually or automatically. for example, after each vote in parliament, a pipeline could:
-1. download the vote count and breakdown
-2. summarize and store the legislation
-3. collect relevant metadata; e.g. financial interests of politicians/parties at the time, other legislation referenced, etc. 
-
-with this information, voters could have more transparency into the political process. which leads to...
+    curated sources from the Yes and No campaigns are made available via a chat interface, where users can ask a question such as "what is the Voice to Parliament and what will it do?" and have an answer summarised from sources like:
+    - the official Australian Electoral Comission's booklet 
+    - information booklets from the Yes and No campaigns
+    - indepentent scholarly reviews of the proposed Constitutional amendment
 """)
 
-st.markdown("""
-
-## [Bot Hawke](https://twitter.com/BotHawke)
-*cut the bullshit out of Australian politics by helping voters make informed desicions at elections* 
-
-Bot Hawke is an example use case for your library. by recording parliament votes, interview transcripts and policy platforms, then making them readily accessible to voters in an understandable format, elections will become more issues-based. 
-
-for any issue, e.g. environmental protections, voters will be able to see the actions taken and things said by each candidate on the ballot. 
-
-my goal is to improve 100 people's understanding of Australia's upcoming [Voice to Parliament referendum](https://www.abc.net.au/news/2023-05-15/what-is-the-indigenous-voice-to-parliament-referendum-australia/102317242). next step is integrating key data schemas such as voting records and interview transcripts.  
-
-""")
 
 st.markdown("""
     # experience
     ### data analyst - **[Digital Surge](https://digitalsurge.com.au/)** (*2021-2022*)
-    - increase profit margins by incorporating third party datasets into existing data, presenting in such a way as to enable agile updating of business practices
-    - facilitate business understanding by developing dashboards through Google Cloud, and custom reports through Python/R to allow leadership to make data-driven decisions
+    - provide advice on business decisions by undertaking statistical exploration (e.g. Monte-Carlo simulations, hypothesis testing, network analysis) on available data, then explaining results using the appropriate  level of detail
+    - enhance business understanding across the company by determining the data-related questions of each department (executive, customer service, marketing) and creating ongoing solutions based on their needs
     
     ### data assurance associate - **[PwC Australia](https://www.pwc.com.au/)** (*2023*)
-    - uplift a data product by increasing profitability, streamlining processes and minimizing employee dependencies. the implementation of modern ETL pipelines and the reduction of complexity resulted in the product becaming net profitable
-    - upskill team members in using LLMs by leading an initiative to create an AI product which ingests documents and allows semantic search 
+    - deliver outcomes for clients by understanding their business requirements and utilizing a suite of data processing technologies (e.g. Python, SQL, Alteryx) to deliver presentations, reports and dashboards   
+    - upskill team members in using LLMs by leading an initiative to create a document chatbot. Manage the team by assigning coding tasks suiting their programming experience, resulting in a working prototype 
+    - translate business requirements into data products in collaboration with both technical and non-technical stakeholders
 
     # education
-
-    ### bachelor of mathematics (applied and computational) - **[Queensland University of Technology](https://www.qut.edu.au/courses/bachelor-of-mathematics-applied-and-computational-mathematics)** (*2018-2021*)
+    ### Arize.ai - [Machine Learning Observability](https://arize.com/blog-course/)
+    - provide accurate and contextually relevant responses to user questions by deploying a fine-tuned LLM and monitoring to ensure that quality improves over time
+    ### Fast.ai - [Practical Deep Learning for Coders](https://course.fast.ai/)
+    - build and train deep learning models for NLP and computer vision tasks by leveraging current deep learning techniques and software (e.g. PyTorch, fastai)
+    - develop, evaluate and deploy models from scratch and iterate to improve performance
+    ### Queensland University of Technology  - [Bachelor of Mathematics (applied and computational)](https://www.qut.edu.au/courses/bachelor-of-mathematics-applied-and-computational-mathematics)
     - investigate online community building by using personal Twitter data to create maps and conduct analyses of my online network
     - verify that electrical componenents will not overheat by simulating the temperatures it will be exposed to
     - reconstruct images of the brain using fMRI data
@@ -70,13 +52,15 @@ st.markdown("""
 st.markdown("# skills")
 with st.container():
     st.markdown("**python**")
-    st.progress(value=0.85)
+    st.progress(value=0.90)
+    st.markdown("**natural language processing**")
+    st.progress(value=0.80)
     st.markdown("**data lakes & warehousing**")
     st.progress(value=0.75)
     st.markdown("**ETL data pipelines**")
     st.progress(value=0.90)
     st.markdown("**deep learning**")
-    st.progress(value=0.45)
+    st.progress(value=0.55)
     st.markdown("**R**")
     st.progress(value=0.70)
 
@@ -85,7 +69,7 @@ st.markdown("""
     # socials
     [GitHub](https://github.com/harleygray)
 
-    [Twitter](https://twitter.com/harleyraygray)
+    [Twitter/X](https://twitter.com/harleyraygray)
 
     [LinkedIn](https://linkedin.com/in/harleygray1996)
 
