@@ -14,11 +14,11 @@ with st.sidebar:
     with open("images/selfie.png", "rb") as image_file:
         image_data = base64.b64encode(image_file.read()).decode()
     photo_html = f'<a href="https://www.linkedin.com/in/harleygray1996/"><img src="data:image/png;base64,{image_data}" width="250" alt="Profile" title="Profile"></a>'
-    st.sidebar.markdown(photo_html, unsafe_allow_html=True)
+    st.markdown(photo_html, unsafe_allow_html=True)
 
     # -----------------  contact  ----------------- #
 
-    st.sidebar.subheader("📨 Contact Me")
+    st.subheader("📨 Contact Me")
     contact_form = f"""
     <form action="https://formsubmit.co/{info["Email"]}" method="POST">
         <input type="hidden" name="_captcha value="false">
@@ -28,7 +28,7 @@ with st.sidebar:
         <button type="submit">Send</button>
     </form>
     """
-    st.sidebar.markdown(contact_form, unsafe_allow_html=True)
+    st.markdown(contact_form, unsafe_allow_html=True)
 
 def load_lottieurl(url: str):
     r = requests.get(url)
