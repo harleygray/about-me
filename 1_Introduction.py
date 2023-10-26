@@ -5,7 +5,7 @@ from constant import *
 from PIL import Image
 import base64
 
-st.set_page_config(page_icon='📡', page_title="harley", layout="wide")
+st.set_page_config(page_icon='📡', page_title="harley", layout="centered")
 
 name = info["Name"]
 
