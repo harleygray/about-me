@@ -50,10 +50,10 @@ button[type=submit]:hover {
 }
 
 /* Hide Streamlit Branding */
-/*#MainMenu {visibility: hidden;}
+#MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
 header {visibility: hidden;}
-*/
+
 
 /* Design Hyperlink */
 a:link , a:visited{
