@@ -85,9 +85,16 @@ with st.container():
 # ----------------- portfolio ----------------- #
 with st.container():
     st.subheader("🪟 window into parliament 🪟")
+    st.write("a live dashboard showing how each member of parliament voted in user-selected divisions.")
+    st.markdown("""
+    - parliamentary voting data retrieved using API requests
+    - GitHub actions to auto-update member and division information daily
+    - [Plotly](https://plotly.com/python/) for visualising data
+    - data transformation and wrangling
+    """)
     divisions = """
     <iframe
-        src="https://your-library.streamlit.app/divisions/?embed=true"
+        src="https://your-library.streamlit.app/?embed=true"
         height="750"
         style="width:100%;border:none;"
     </iframe>
