@@ -4,6 +4,7 @@ from streamlit_lottie import st_lottie
 from constant import *
 from PIL import Image
 import base64
+import pandas as pd
 
 st.set_page_config(page_icon='📡', page_title="harley", layout="centered")
 
@@ -83,23 +84,23 @@ with st.container():
         st_lottie(r_lottie, height=80,width=80, key="r", speed=2.5)
     
 # ----------------- portfolio ----------------- #
-with st.container():
-    st.subheader("🪟 window into parliament 🪟")
-    st.write("a live dashboard showing how each member of parliament voted in user-selected divisions.")
-    st.markdown("""
-    - parliamentary voting data retrieved using API requests
-    - GitHub actions to auto-update member and division information daily
-    - [Plotly](https://plotly.com/python/) for visualising data
-    - data transformation and wrangling
+st.subheader("🪟 window into parliament 🪟")
+st.write("visualising vote counts using parliament data")
+divisions = """
+<iframe
+    src="https://your-library.streamlit.app/?embed=true"
+    height="750"
+    style="width:100%;border:none;"
+</iframe>
+"""
+st.markdown(divisions, unsafe_allow_html=True)
+with st.expander("methods and technology used"):
+    st.write("""
+    - voting data is retrieved via API requests from [They Vote For You](https://theyvoteforyou.org.au/help/data)
+    - data is updated daily with [GitHub Actions](https://github.com/harleygray/your-library/blob/main/.github/workflows/schedule.yaml)
+    - chart visualisations are made with [Plotly](https://plotly.com/python/), with user interactivity handled by [Streamlit](https://docs.streamlit.io/library/api-reference/widgets)
     """)
-    divisions = """
-    <iframe
-        src="https://your-library.streamlit.app/?embed=true"
-        height="750"
-        style="width:100%;border:none;"
-    </iframe>
-    """
-    st.markdown(divisions, unsafe_allow_html=True)
+    
 
 
 
